@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    width: 100%;
+    padding: 20px 0px;
+    background: black;
+    box-shadow: 0px 0px 15px black;
+    border-bottom: 2px solid black;
+    height: 120px;
+}
+
+header h1{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header h2{color: white;
+    font-size: 1em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.photo{
+    text-align: left;
+}
+
+.photo img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+
+.photo2{
+    text-align: right;
+}
+
+.photo2 img{
+    width: 316.8px;
+    height: 57.6px;
+    margin-top: -100px;
+    padding-right: 15px;
+}
+
+.produit{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+
+.produit img{
+    width: 400px;
+    height: 400px;
+}
+
+.bouton{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: black;
+    background-color: black(255, 255, 241);
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px; 
+}
+
+.lien{ 
+    color: black; 
+}
+
+.menu{
+    border: 2px solid black;
+    color: black;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+    font-family: Avenir, sans-serif;
+}
+
+.nompage{
+    border: 1px solid #ccc;
+    border-style: dashed;
+    color: black;
+    width: 550px;
+    height: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+    font-family: Avenir, sans-serif;
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: black;
+    box-shadow: 0px 0px 15px black;
+}
+
+footer p{
+        width: 90%;
+        margin: 0 auto;
+        color: #fff;
+        text-align: center;
+}
